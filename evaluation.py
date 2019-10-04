@@ -36,7 +36,7 @@ class PrecisionRecallEvaluation(object):
         self.test = test_data
         self.train = train_data
         self.dish_id = dish_id
-        self.dish = dish
+        self.dish = dishes
         self.om = order_matrix
         self.rm = rating_matrix
         self.com = co_occurence_matrix
